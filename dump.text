@@ -1,0 +1,640 @@
+{
+  "02064913-c571-433b-9062-584c99244e29": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00021.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:27.821576Z"
+    },
+    "image_classification": {
+      "people": [
+        {
+          "activity": "sitting",
+          "distress_signs": false,
+          "count": 1
+        }
+      ],
+      "health_risks": [],
+      "logistics": [],
+      "location": {
+        "lon": 0,
+        "lat": 0
+      },
+      "timestamp": "2025-11-04T02:26:27.821576Z",
+      "hazards": []
+    }
+  },
+  "06c8557c-c03f-4df9-a20b-41b4da911a77": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00022.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:29.746607Z"
+    },
+    "image_classification": {
+      "people": [
+        {
+          "activity": "gathering near building",
+          "distress_signs": false,
+          "count": 5
+        }
+      ],
+      "health_risks": [
+        "exposure to elements"
+      ],
+      "logistics": [
+        "access to shelter",
+        "vehicle present"
+      ],
+      "location": {
+        "lon": 0,
+        "lat": 0
+      },
+      "timestamp": "2025-11-04T02:26:29.746607Z",
+      "hazards": [
+        "debris",
+        "damaged structures"
+      ]
+    }
+  },
+  "113511ba-7f20-49d5-ad06-0492a4997f96": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00020.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:26.231116Z"
+    },
+    "image_classification": {
+      "people": [
+        {
+          "activity": "sitting",
+          "distress_signs": false,
+          "count": 1
+        }
+      ],
+      "health_risks": [],
+      "logistics": [],
+      "location": {
+        "lon": 0,
+        "lat": 0
+      },
+      "timestamp": "2025-11-04T02:26:26.231116Z",
+      "hazards": []
+    }
+  },
+  "1746d8ff-bcd7-4af7-ac8d-9acb475849c0": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00001.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:25:55.156456Z"
+    },
+    "image_classification": {
+      "people": [
+        {
+          "activity": "",
+          "distress_signs": false,
+          "count": 0
+        }
+      ],
+      "health_risks": [
+        "water contamination"
+      ],
+      "logistics": [
+        "blocked roads",
+        "damaged buildings"
+      ],
+      "location": {
+        "lon": 0,
+        "lat": 0
+      },
+      "timestamp": "2025-11-04T02:25:55.156456Z",
+      "hazards": [
+        "flooding",
+        "damaged infrastructure"
+      ]
+    }
+  },
+  "262ec15b-d4f1-4e8c-bbe4-87303e24198a": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00012.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:13.409460Z"
+    },
+    "image_classification": {
+      "people": [
+        {
+          "activity": "",
+          "distress_signs": false,
+          "count": 0
+        }
+      ],
+      "health_risks": [],
+      "logistics": [],
+      "location": {
+        "lon": 0,
+        "lat": 0
+      },
+      "timestamp": "2025-11-04T02:26:13.409460Z",
+      "hazards": []
+    }
+  },
+  "2e909fa9-2800-421a-8f88-71f2eacfd832": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00007.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:06.018674Z"
+    },
+    "image_classification": {
+      "people": [
+        {
+          "activity": "sitting",
+          "distress_signs": false,
+          "count": 1
+        }
+      ],
+      "health_risks": [],
+      "logistics": [],
+      "location": {
+        "lon": 0,
+        "lat": 0
+      },
+      "timestamp": "2025-11-04T02:26:06.018674Z",
+      "hazards": []
+    }
+  },
+  "35fc196c-be18-40c0-8848-6122f6aa191e": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00000.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video.mp4",
+      "timestamp": "2025-11-04T01:00:00.216039Z"
+    },
+    "image_classification": {
+      "people": [
+        {
+          "activity": "standing",
+          "distress_signs": false,
+          "count": 1
+        }
+      ],
+      "health_risks": [],
+      "logistics": [],
+      "location": {
+        "lon": 0,
+        "lat": 0
+      },
+      "timestamp": "2025-11-04T01:00:00.216039Z",
+      "hazards": []
+    }
+  },
+  "4002c24a-3afc-409b-8048-b44bfa68b33f": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00014.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:16.799971Z"
+    },
+    "image_classification": {
+      "people": [
+        {
+          "activity": "sitting",
+          "distress_signs": false,
+          "count": 1
+        }
+      ],
+      "health_risks": [],
+      "logistics": [],
+      "location": {
+        "lon": 0,
+        "lat": 0
+      },
+      "timestamp": "2025-11-04T02:26:16.799971Z",
+      "hazards": []
+    }
+  },
+  "4a6bfe2d-5747-4c15-b045-8af2d0203142": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00017.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:20.984748Z"
+    },
+    "image_classification": {
+      "people": [
+        {
+          "activity": "walking",
+          "distress_signs": false,
+          "count": 5
+        }
+      ],
+      "health_risks": [
+        "potential injuries"
+      ],
+      "logistics": [
+        "ambulances",
+        "blocked roads"
+      ],
+      "location": {
+        "lon": 0,
+        "lat": 0
+      },
+      "timestamp": "2025-11-04T02:26:20.984748Z",
+      "hazards": [
+        "fallen trees",
+        "debris"
+      ]
+    }
+  },
+  "4c24d529-db6c-4b68-929d-4993904cbd70": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00019.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:24.402126Z"
+    },
+    "image_classification": {
+      "people": [
+        {
+          "activity": "",
+          "distress_signs": false,
+          "count": 0
+        }
+      ],
+      "health_risks": [
+        "potential injuries",
+        "lack of shelter"
+      ],
+      "logistics": [
+        "blocked roads"
+      ],
+      "location": {
+        "lon": 0,
+        "lat": 0
+      },
+      "timestamp": "2025-11-04T02:26:24.402126Z",
+      "hazards": [
+        "debris",
+        "damaged buildings"
+      ]
+    }
+  },
+  "50c137ad-5b81-484b-8091-a287d92228a5": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00005.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:01.999561Z"
+    },
+    "image_classification": {
+      "people": [
+        {
+          "activity": "",
+          "distress_signs": false,
+          "count": 0
+        }
+      ],
+      "health_risks": [
+        "potential injury from debris"
+      ],
+      "logistics": [
+        "blocked roads"
+      ],
+      "location": {
+        "lon": 0,
+        "lat": 0
+      },
+      "timestamp": "2025-11-04T02:26:01.999561Z",
+      "hazards": [
+        "damaged infrastructure",
+        "debris"
+      ]
+    }
+  },
+  "58107c5c-f6c5-4502-ba18-6755901c036d": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00001.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video.mp4",
+      "timestamp": "2025-11-04T01:00:08.375728Z"
+    },
+    "image_classification": {
+      "people": [
+        {
+          "activity": "holding onto trees",
+          "distress_signs": false,
+          "count": 1
+        }
+      ],
+      "health_risks": [],
+      "logistics": [],
+      "location": {
+        "lon": 0,
+        "lat": 0
+      },
+      "timestamp": "2025-11-04T01:00:08.375728Z",
+      "hazards": [
+        "strong winds"
+      ]
+    }
+  },
+  "5d3ba3b4-adb8-4843-99c6-e642828c0c9b": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00015.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:18.011169Z"
+    },
+    "image_classification": {
+      "people": "",
+      "hazards": "",
+      "logistics": "",
+      "health_risk": ""
+    }
+  },
+  "63588043-9bbd-422c-92ac-afbd3155e1be": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00000.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:25:53.176208Z"
+    },
+    "image_classification": {
+      "people": "",
+      "hazards": "",
+      "logistics": "",
+      "health_risk": ""
+    }
+  },
+  "671446b0-ae96-4828-9e2b-015b33ebe092": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00002.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:25:56.808988Z"
+    },
+    "image_classification": {
+      "people": "",
+      "hazards": "",
+      "logistics": "",
+      "health_risk": ""
+    }
+  },
+  "744ac0f4-9003-4fce-94ed-5667fbc1dfde": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00008.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:07.371913Z"
+    },
+    "image_classification": {
+      "people": "",
+      "hazards": "",
+      "logistics": "",
+      "health_risk": ""
+    }
+  },
+  "acc5c03c-12f3-46bc-b8fa-e5ac8d7617db": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00018.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:23.009483Z"
+    },
+    "image_classification": {
+      "people": "",
+      "hazards": "",
+      "logistics": "",
+      "health_risk": ""
+    }
+  },
+  "bf8dd494-43b8-49ab-a1d5-4a264111584d": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00006.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:03.940128Z"
+    },
+    "image_classification": {
+      "people": "",
+      "hazards": "",
+      "logistics": "",
+      "health_risk": ""
+    }
+  },
+  "bff11579-153e-44ad-b0eb-5531f9de7ec3": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00009.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:08.664352Z"
+    },
+    "image_classification": {
+      "people": "",
+      "hazards": "",
+      "logistics": "",
+      "health_risk": ""
+    }
+  },
+  "c53d577f-2fb4-4d91-9ef3-551838accfa7": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00016.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:19.507542Z"
+    },
+    "image_classification": {
+      "people": "",
+      "hazards": "",
+      "logistics": "",
+      "health_risk": ""
+    }
+  },
+  "c655b044-e91f-46ad-86b5-d73fb1c55dfc": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00004.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:00.240690Z"
+    },
+    "image_classification": {
+      "people": "",
+      "hazards": "",
+      "logistics": "",
+      "health_risk": ""
+    }
+  },
+  "cda0984f-5346-4129-be47-b8477011bcc6": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00013.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:15.333405Z"
+    },
+    "image_classification": {
+      "people": "",
+      "hazards": "",
+      "logistics": "",
+      "health_risk": ""
+    }
+  },
+  "cfabafe5-ae12-4a2e-a957-5956a654f94f": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00003.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:25:58.279986Z"
+    },
+    "image_classification": {
+      "people": "",
+      "hazards": "",
+      "logistics": "",
+      "health_risk": ""
+    }
+  },
+  "d4c18c33-d1f1-4f69-9b81-a24b3714a5f0": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00011.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:11.582998Z"
+    },
+    "image_classification": {
+      "people": "",
+      "hazards": "",
+      "logistics": "",
+      "health_risk": ""
+    }
+  },
+  "d602adf2-3063-45b6-96d4-32b8ea50bb4f": {
+    "image_path": "https://storage.googleapis.com/jamaica-realtime-crisis-map.firebasestorage.app/images/frame_00010.jpg",
+    "metadata": {
+      "xy_coordinate": [
+        0,
+        0
+      ],
+      "caption": "",
+      "source": "input_video_2.mp4",
+      "timestamp": "2025-11-04T02:26:10.135473Z"
+    },
+    "image_classification": {
+      "people": "",
+      "hazards": "",
+      "logistics": "",
+      "health_risk": ""
+    }
+  },
+  "niti83ZrOQuFAR55Ekpa": {
+    "image_path": "",
+    "metadata": {
+      "caption": "",
+      "timestamp": "2025-11-03T05:00:00.824000+00:00",
+      "xy_cordinate": "<google.cloud.firestore_v1._helpers.GeoPoint object at 0x00000238E2BA5410>",
+      "source": ""
+    },
+    "image_classification": {
+      "people": "",
+      "health_risk": "",
+      "logistics": "",
+      "hazards": ""
+    }
+  }
+}

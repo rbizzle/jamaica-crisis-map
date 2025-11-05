@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+
+# Firebase credentials
+serviceAccountKey.json
+*firebase-adminsdk*.json
+jamaica-realtime-crisis-map-firebase-adminsdk-fbsvc-2b8d724ab7.json
+
+# Local development
+.venv/
+.idea/
+.vscode/
