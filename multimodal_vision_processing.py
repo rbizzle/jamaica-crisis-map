@@ -25,13 +25,39 @@ warnings.filterwarnings("ignore", message=r".*was deprecated.*")
 # Firebase initialization
 import firebase_admin
 from firebase_admin import credentials, firestore, storage
-from config import FIREBASE_CONFIG
+
 # Optional geocoding (generate lat/lon from on-screen location description)
 from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
 
 # Simple in-memory cache for geocoding results to avoid repeated queries
 GEOCODE_CACHE = {}
+
+
+# ==========================================================
+# 🔹 FIREBASE CONFIG - Handles both local and Streamlit Cloud
+# ==========================================================
+def get_firebase_config():
+    """Get Firebase config from Streamlit secrets or local config file."""
+    try:
+        import streamlit as st
+        return {
+            'storageBucket': st.secrets["firebase"]["storageBucket"],
+            'projectId': st.secrets["firebase"]["projectId"]
+        }
+    except:
+        # Fallback for local development
+        try:
+            from config import FIREBASE_CONFIG
+            return FIREBASE_CONFIG
+        except ImportError:
+            # Last resort hardcoded values
+            return {
+                'storageBucket': 'jamaica-realtime-crisis-map.firebasestorage.app',
+                'projectId': 'jamaica-realtime-crisis-map'
+            }
+
+FIREBASE_CONFIG = get_firebase_config()
 
 
 def geocode_location(query, delay=1.0):
@@ -82,12 +108,48 @@ Only return valid JSON with no additional text."""
 # ==========================================================
 # 🔹 FIREBASE INITIALIZATION
 # ==========================================================
-# Firebase config
-cred = credentials.Certificate("jamaica-realtime-crisis-map-firebase-adminsdk-fbsvc-2b8d724ab7.json")
-firebase_admin.initialize_app(cred, {
-    'storageBucket': FIREBASE_CONFIG['storageBucket'],
-    'projectId': FIREBASE_CONFIG['projectId']
-})
+def initialize_firebase():
+    """Initialize Firebase only once, with proper error handling for both local and cloud."""
+    if firebase_admin._apps:
+        print("Firebase already initialized, skipping...")
+        return
+    
+    try:
+        # Try Streamlit secrets first (for cloud deployment)
+        try:
+            import streamlit as st
+            if 'firebase_credentials' in st.secrets:
+                print("Using Firebase credentials from Streamlit secrets...")
+                service_account_info = dict(st.secrets["firebase_credentials"])
+                cred = credentials.Certificate(service_account_info)
+            else:
+                raise KeyError("No firebase_credentials in secrets")
+        except (ImportError, KeyError):
+            # Fallback to local JSON file (for local development)
+            print("Using local service account JSON file...")
+            key_file = "jamaica-realtime-crisis-map-firebase-adminsdk-fbsvc-2b8d724ab7.json"
+            
+            if not os.path.exists(key_file):
+                raise FileNotFoundError(f"Service account key not found: {key_file}")
+            
+            # Verify JSON is valid before using it
+            with open(key_file, 'r') as f:
+                service_account_info = json.load(f)
+            
+            cred = credentials.Certificate(service_account_info)
+        
+        firebase_admin.initialize_app(cred, {
+            'storageBucket': FIREBASE_CONFIG['storageBucket'],
+            'projectId': FIREBASE_CONFIG['projectId']
+        })
+        print("✓ Firebase initialized successfully")
+        
+    except Exception as e:
+        print(f"✗ Firebase initialization failed: {e}")
+        raise
+
+# Initialize Firebase once at module load
+initialize_firebase()
 
 
 # ==========================================================
